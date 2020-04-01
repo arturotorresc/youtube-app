@@ -10,7 +10,7 @@ const makeFetch = url => {
   const options = {
     method: "GET",
     headers: {
-      referrer: "https://arturotorresc.github.io/youtube-app/"
+      referer: "https://arturotorresc.github.io/youtube-app/"
     }
   };
   fetch(url, options)
