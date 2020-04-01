@@ -9,7 +9,7 @@ let currentSearch = "";
 const makeFetch = url => {
   const options = {
     method: "GET",
-    referer: "https://arturotorresc.github.io/youtube-app/"
+    referrer: "https://arturotorresc.github.io/youtube-app/"
   };
   fetch(url, options)
     .then(response => {
